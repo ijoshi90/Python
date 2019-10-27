@@ -60,3 +60,6 @@ newlist.reverse()
 print (newlist)
 newlist.sort()
 print (newlist)
+
+newlist.pop()
+mynewlist.remove()

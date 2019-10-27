@@ -4,13 +4,7 @@ GitHub : https://github.com/ijoshi90
 Created on 28-Sep-19 at 12:21
 """
 
-from numpy import *
-
-m = input ("N M : ")
-n = input ("Values : ")
-
-# arr1 = fromstring (m,dtype=int, sep=" ")
-# arr2 = fromstring (n,dtype=int, sep=" ")
-
-for i in range m:
-    for j in range n:
+n = input("Enter number : ")
+arr = "1 2 3 4 6 4 2 56 8 2 45 67"
+arr =  map(int, arr.split(" "))
+print(arr)
