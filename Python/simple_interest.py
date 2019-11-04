@@ -11,8 +11,8 @@ simple_interest = (principle * term * interest) / 100
 emi = (principle + simple_interest) / (term*12)
 
 print ("Principle : {}".format(principle))
-print("Rate of Interest : {}".format(interest))
-print("Term in Years : {} ({} months)".format(term,term*12))
+print ("Rate of Interest : {}".format(interest))
+print ("Term in Years : {} ({} months)".format(term,term*12))
 print ("Simple Interest : {}".format(simple_interest))
 print ("Total to Pay Back : {}".format(principle+simple_interest))
 print ("EMI : {}".format(round(emi)))
