@@ -62,4 +62,9 @@ newlist.sort()
 print (newlist)
 
 newlist.pop()
-mynewlist.remove()
+#mynewlist.remove("")
+
+# Negative Index
+athislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print("Negative Index")
+print(athislist[-5:-1])
