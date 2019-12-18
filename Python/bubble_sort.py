@@ -8,8 +8,7 @@ Created on Sun Aug 25 16:40:03 2019
 # Bubble sort
 
 array = [1,5,2,3,0,1,5,2,6]
-print ("Unsorted array")
-print (array)
+print ("Unsorted array : {}".format((array)))
 
 def bubble_sort(array):
     length = len (array)
@@ -23,5 +22,4 @@ def bubble_sort(array):
                 array[j], array[j+1] = array[j+1], array [j]
                 
 bubble_sort (array)
-print ("Sorted array")
-print (array)
+print ("Sorted array : {}".format(array))

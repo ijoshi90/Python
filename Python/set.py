@@ -12,7 +12,7 @@ print(thisset)
 for i in thisset:
     print (i)
     
-print ("5banana" in thisset)
+print ("5 banana" in thisset)
 print ("2 banana" in thisset)
 
 thisset.add("5 Strawberry")

@@ -26,3 +26,6 @@ print(thistuple)
 
 print(str(thistuple.count))
 print (thistuple.index)
+
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])

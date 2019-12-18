@@ -4,7 +4,7 @@ Created on Sun Aug 25 16:58:12 2019
 
 @author: akjoshi
 """
-"""
+
 # Python Program for recursive binary search.   
 def binary_search(item_list,item):
 	first = 0
@@ -24,4 +24,3 @@ def binary_search(item_list,item):
 
 print (binary_search([1,2,3,5,8], 6))
 print (binary_search([1,2,3,5,8], 5))
-"""
