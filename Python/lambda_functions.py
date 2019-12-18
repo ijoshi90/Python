@@ -13,3 +13,10 @@ add = lambda b,c : b + c
 
 print ("Lambda Square : " + str(sqr(5)))
 print ("Lambda add : " + str(add(5,6)))
+
+def myfun (n):
+    return lambda b : b * n
+
+mytripler = myfun(2)
+
+print("My Tripler Lambda : {}".format(mytripler(11)))
