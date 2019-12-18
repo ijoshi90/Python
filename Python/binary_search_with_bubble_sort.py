@@ -3,12 +3,6 @@ Author : Akshay Joshi
 GitHub : https://github.com/ijoshi90
 Created on 18-12-2019 at 11:11
 """
-"""
-Author : Akshay Joshi
-GitHub : https://github.com/ijoshi90
-Created on 18-12-2019 at 10:44
-"""
-
 
 # Binary search
 
