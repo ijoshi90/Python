@@ -3,17 +3,19 @@ Author : Akshay Joshi
 Created on 10-Sep-19
 """
 
+# Install the package paramiko
 from paramiko import *
 
-ip = 'raspberrypi'
-username = 'pi'
-password = 'raspberry'
+ip = '192.168.179.137'
+username = 'akshay'
+password = 'password'
 port = 22
 
 cmds = [
         'echo "System Date : `date`"',
         'echo "System IP : `ip a | grep inet | grep -v inet6 | grep -v 127.0.0.1 | cut -d" " -f 6 | cut -d"/" -f1`"',
-        'echo "Raspberry Pi CPU Temperature : `vcgencmd measure_temp | cut -d= -f2`"',
+        'echo "Present working directory : `pwd`"',
+        'echo "User : `who`"'
         ]
 
 full_op_dump = ""
