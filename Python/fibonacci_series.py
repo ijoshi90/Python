@@ -7,8 +7,10 @@ Created on Sat Aug 24 17:58:59 2019
 
 # Fibonacci series
 
-number = int ( input ("Enter the number to generate fibonacci sequence : "))
-maxi = int ( input ("Enter the Max Range : "))
+#number = int ( input ("Enter the number to generate fibonacci sequence : "))
+#maxi = int ( input ("Enter the Max Range : "))
+number = 20
+maxi = 1000000000
 
 base = 0
 current = 1
