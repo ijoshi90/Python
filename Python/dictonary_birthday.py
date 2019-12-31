@@ -20,11 +20,10 @@ print("DOB's we know .. ")
 
 for each in names:
     print("{} : {}".format(each,names[each]))
-#print(names)
 
-selection = input("Enter the number of person you want DOB : ")
+selection = input("Whose Birthday do you want to see : ")
 
 try:
     print("DOB of {} is {}".format(names[selection], birthdays[names[selection]]))
 except:
-    print("Invalid value selected")
+    print("Invalid value selected, input should be a number from the displayed set")

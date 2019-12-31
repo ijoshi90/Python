@@ -1,37 +1,25 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sat Aug 24 17:58:59 2019
-
-@author: akjoshi
+Author : Akshay Joshi
+GitHub : https://github.com/ijoshi90
+Created on 20-12-2019 at 11:29
 """
 
-# Fibonacci series
+# Fibonacci
+max = int(input("Enter the number to print Fibonacci series : "))
 
-number = int ( input ("Enter the number to generate fibonacci sequence : "))
-maxi = int ( input ("Enter the Max Range : "))
+#max = 10
+first = 0
+second = 1
+fibonacci = []
 
-base = 0
-current = 1
-series = str (base) + " " + str (current)
-ser1=[]
+fibonacci.append(first)
+fibonacci.append(second)
 
-ser1.append(base)
-ser1.append(current)
-# 0, 1, 1, 2, 3, 5, 8
-if number == 0:
-    series = "0 is not a valid number to print fibonacci"
-    ser1 = series
-    
-elif number == 1:
-    series = 0
-    ser1 = [0]
-else:
-    for i in range (number - 2):
-        new = base + current
-        if new <= maxi:
-            base = current
-            current = new
-            series = series + " " + str (new)
-            ser1.append(new)
-print ("Fibonacci series : " + str(series))
-print ("Fibonacci List : {}".format(ser1))
+# Code
+for i in range (max - 2):
+    next = first + second
+    fibonacci.append(next)
+    first = second
+    second = next
+
+print(fibonacci)
