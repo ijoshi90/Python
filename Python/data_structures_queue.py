@@ -8,7 +8,7 @@ Created on 31-12-2019 at 08:32
 
 class Queue:
     def __init__(self):
-        self.queue = list()
+        self.queue = [] # or list()
 
     # Insert method to add element
     def insert(self,dataval):

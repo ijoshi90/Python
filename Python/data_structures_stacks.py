@@ -11,13 +11,8 @@ class Stack:
 
     # Adding Data
     def push(self, data):
-        # Unique, repeated elements will not be added
-        #if data not in self.stack:
-        #    self.stack.append(data)
-        #    return True
-        #else:
-        #    return False
         self.stack.append(data)
+
     # Look at the top of the stack
     def peek(self):
         return self.stack[-1]
@@ -31,7 +26,7 @@ class Stack:
 
     # Print stack elements
     def printstack(self):
-        print("Now stack is")
+        print("* Now stack is")
         for each in stack.stack[::-1]:
             print(each)
 
