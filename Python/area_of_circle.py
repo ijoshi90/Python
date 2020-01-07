@@ -4,7 +4,8 @@ GitHub : https://github.com/ijoshi90
 Created on 27-Oct-19 at 20:35
 """
 
-from math import *
+#from math import pi
+from math import pi
 
 def calculate_area():
     radius = float(input("Enter Radius of Circle : "))
