@@ -11,7 +11,7 @@ nums = [1,2,3,4,6,7,8,9,11,12,13,14]
 
 for num in nums:
     if num % 5 == 0:
-        print (num+"is divisible by 5")
+        print ("{} is divisible by 5".format(num))
         break
 # this else is for "for loop"
 else:

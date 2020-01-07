@@ -4,7 +4,10 @@ GitHub : https://github.com/ijoshi90
 Created on 27-Oct-19 at 19:04
 """
 
+# Example of Armstrong number 153, 371 :
+# Sum of cubes of all the numbers = number
 number = int(input("Enter the number to check if its Armstrong Number or Not : "))
+
 number_list = [] # Empty list
 string_number = str(number)
 

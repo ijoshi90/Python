@@ -4,7 +4,7 @@ GitHub : https://github.com/ijoshi90
 Created on 30-Oct-19 at 08:15
 """
 
-arr = [1,2,3,4,5]
+arr = [2,1,4,5,3]
 
 def miniMaxSum(arr):
     arr.sort()

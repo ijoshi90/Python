@@ -19,7 +19,7 @@ for fruit in fruits:
     print (fruit)
        
 ## Pass  
-for i in range (20):
+for i in range (10):
     if i%2 == 0:
         pass
         # Just an empty block, no condition, use pass

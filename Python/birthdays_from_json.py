@@ -10,5 +10,5 @@ file = open("birthdays.json","r")
 data = file.read()
 
 json_data = json.loads(data)
-print(type(json_data))
+print("Json file contents type : {}".format(type(json_data)))
 print(json_data)

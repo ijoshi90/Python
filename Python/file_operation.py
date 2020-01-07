@@ -9,8 +9,8 @@ import datetime
 file1 = open("SampleFile.txt","w+")
 file1.write ("Time Now : ")
 file1.write(format(datetime.datetime.now()))
+file1.close()
 
 file2 = open("SampleFile.txt","r")
 print (file2.read())
-file1.close()
 file2.close()

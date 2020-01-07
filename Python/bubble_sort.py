@@ -8,6 +8,7 @@ Created on Sun Aug 25 16:40:03 2019
 # Bubble sort
 
 array = [1,5,2,3,0,1,5,2,6]
+
 print ("Unsorted array : {}".format((array)))
 
 def bubble_sort(array):

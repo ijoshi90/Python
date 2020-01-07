@@ -60,6 +60,6 @@ def call_functions():
     variable_length_argument(3,4,6,8.7,0.4)
     
     print ("**kwargs")
-    kwargs("Joshi", age=28, city="Berlin", phone=449921495)
+    kwargs("Joshi", age=28, city="Berlin", phone="+49 175 922 5040")
     
 call_functions()

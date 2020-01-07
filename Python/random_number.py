@@ -6,4 +6,4 @@ Created on 17-12-2019 at 13:05
 
 from random import *
 
-print ("Random Number Generated : {}".format(randrange(5,10)))
+print ("Random Number Generated : {}".format(randrange(5,100)))
