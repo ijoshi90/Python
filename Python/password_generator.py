@@ -10,4 +10,6 @@ from random import *
 string = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 passlen = 8
 password = "".join(sample(string,passlen))
+print("")
 print ("Generated Password : {}".format(password))
+print("")

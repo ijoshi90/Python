@@ -8,8 +8,8 @@ import time
 
 # Print Pattern
 
-number = int (input ("Enter a number : "))
-
+#number = int (input ("Enter a number : "))
+number = 10
 for it1 in range (number):
     for it2 in range (it1+1):
         print (it2+1, end="")
