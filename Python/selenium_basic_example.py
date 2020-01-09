@@ -9,7 +9,9 @@ import time
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Firefox()
-driver.get("http://www.google.co.in")
+driver.get("https://www.linkedin.com/in/ijoshi90/")
+time.sleep(10)
+driver.get("https://www.google.co.in")
 assert "Google" in driver.title
 elem = driver.find_element_by_name("q")
 elem.clear()

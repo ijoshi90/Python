@@ -6,7 +6,8 @@ Created on 10-Sep-19
 # Install the package paramiko
 from paramiko import *
 
-ip = '192.168.179.137'
+#ip = '192.168.179.137'
+ip = '192.168.0.31'
 username = 'akshay'
 password = 'password'
 port = 22

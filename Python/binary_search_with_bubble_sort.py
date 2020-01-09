@@ -37,7 +37,7 @@ def binary_search(arrray, key):
 # Main
 array = [1, 3, 8, 9, 2, 5, 2, 3, 6, 5, 8, 10, 19, 12, 14, 7, 20]
 print("Original Array : {}".format(array))
-key = 9
+key = 90
 print("Key to Search : {}".format(key))
 arrray = bubble_sort_the_array(array)  # Bubble sort the array
 print("Sorted Array : {}".format(array))
