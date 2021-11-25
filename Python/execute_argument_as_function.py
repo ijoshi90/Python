@@ -1,8 +1,8 @@
 # Reads the argument passed and calls the respective function
 # Usage :
-# python executeWithArguments.py functionsAB
+# python execute_argument_as_function.py functionsAB
 # ---- or ----
-# python executeWithArguments.py functionsCD
+# python execute_argument_as_function.py functionsCD
 import sys
 
 functionToBeExecuted = sys.argv[1] + "()"
