@@ -17,7 +17,7 @@ for i in range(numbers-3):
 
 print(time())
 
-#for each in fib_series:
-#    print(each)
+for each in fib_series:
+    print(each)
 
-#print("Fibonacci Series : {}".format(fib_series))
+print("Fibonacci Series : {}".format(fib_series))
