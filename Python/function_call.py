@@ -12,9 +12,11 @@ Description: [Add a description here]
 import sys
 
 def myfunction1(mystring):
+    print("My Function 1 - Normal String")
     print(mystring)
 
 def myfunction2(mystring):
+    print("My Function 2 - Reverse String")
     print(mystring[::-1])
 
 if __name__ == '__main__':
